@@ -2,6 +2,7 @@ import { CssBaseline } from '@material-ui/core';
 import { Router } from '@material-ui/icons';
 import React from 'react';
 import Navbar from './components/NavBar/NavBar';
+import Products from './components/Products/Products';
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
