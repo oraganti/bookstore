@@ -6,6 +6,7 @@ import Navbar from './components/NavBar/NavBar';
 import Cart from './components/Cart/Cart';
 import Checkout from './components/CheckoutForm/Checkout/Checkout';
 import ProductView from './components/ProductView/ProductView';
+import Footer from './components/Footer/Footer';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'mdbreact/dist/css/mdb.css';
@@ -100,7 +101,8 @@ const App = () => {
           </Switch>
         </div>
       </Router>
-    </div>
+      <Footer />
+    </div >
   );
 };
 
